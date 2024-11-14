@@ -1,9 +1,9 @@
 <template>
 <div>
 
-  <h1 class="font-serif text-blue-200 text-center text-2xl mt-16">Weather forcast</h1>
+  <h1 class="font-serif text-blue-300 text-center text-2xl mt-16 font-bold ">Weatherforcast</h1>
   <div class="lg:ml-40">
-  <div class="bg-blue-900 w-80 rounded-sm ml-6 mr-5 mt-5 pb-10 md:ml-60 lg:ml-96 ">
+  <div class="bg-blue-900 w-80 rounded-sm ml-8 mr-5 mt-5 pb-10 md:ml-60 lg:ml-96 ">
    <h1 class="text-white pt-3 pl-1 pr-1 text-center font-serif text-md"> Forcast Weather Condition</h1>
     <input type="text" placeholder="Enter country" class="border-none w-60 p-2 rounded-3xl focus:outline-none mt-5 ml-5" v-model="country"> <i class="fa-solid fa-magnifying-glass text-xl  pl-2 pt-1 ml-1 bg-white w-10 h-10 rounded-full" @click="searchTemprature"></i>
 <img src="\sunny image.jpg" alt="" class="w-40 h-40 rounded-full ml-16 mt-5">
